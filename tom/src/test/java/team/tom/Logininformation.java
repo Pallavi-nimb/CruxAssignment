@@ -65,6 +65,7 @@ public class Logininformation extends baseclass {
 				"https://calendly.com/crux-intelligence-team/us-energy-oil-gas-services-retail?embed_domain=www.cruxintelligence.com&embed_type=Inline&text_color=333333&primary_color=ff84db&back=1");
 
 		rs.datecal().click();
+		Thread.sleep(2000);
 //       JavascriptExecutor js1=(JavascriptExecutor)driver;
 //       WebElement xyz= (WebElement) js1.executeScript("document.querySelector('div.elementor-button-wrapper')");
 //       ((JavascriptExecutor)driver).executeScript("arguments[0].click();",xyz);   
@@ -82,6 +83,6 @@ public class Logininformation extends baseclass {
 		rs.name().sendKeys("pallavi");
 		rs.email().sendKeys("Pallavi@gmail.com");
 		rs.textadd().sendKeys("Agenda to get detail demo about crux");
-
+		
 	}
 }

@@ -15,15 +15,15 @@ public class Requestdemopractice {
 
 	By scheduledemo = By.linkText("This team specializes in CPG & Retail demo & use cases.");
 
-	By Dateselection = By.xpath("//button[@aria-label='Monday, March 21']");
+	By Dateselection = By.xpath("//button[@aria-label='Tuesday, March 22']");
 
 	By Date = By.xpath("//button[@data-container='time-button']");
 
 	By Time = By.xpath("//button[@data-container='time-button']");
 
-	By Spectime = By.xpath("//button[@data-start-time='10:00pm']");
+	By Spectime = By.xpath("//button[@data-start-time='11:30pm']");
 
-	By selectbutton = By.xpath("//button[@data-start-time='10:00pm']");
+	By selectbutton = By.xpath("//button[@data-start-time='11:30pm']");
 
 	By Nameenter = By.xpath("//input[@name='full_name']");
 
@@ -40,8 +40,9 @@ public class Requestdemopractice {
 
 	By confirmbutt = By.xpath("//button[@data-container='time-button']");
 
-	By confirmatten = By.xpath("//div[@data-component='spot-list']/div[3]/button[2]");
+	By confirmatten = By.xpath("//div[@data-container='selected-spot']/button[2]");
 
+	
 	public WebElement uscgp() {
 		return driver.findElement(scheduledemo);
 	}
@@ -82,6 +83,5 @@ public class Requestdemopractice {
 	public WebElement textadd() {
 		return driver.findElement(textenter);
 	}
-	
-	
+
 }
